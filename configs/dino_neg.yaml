@@ -1,0 +1,10 @@
+model: grounding_dino
+model_id: IDEA-Research/grounding-dino-tiny
+revision: a2bb814dd30d776dcf7e30523b00659f4f141c71
+device: mps
+dtype: float32
+prompt: 'butterfly. moth. caterpillar. pupa. dragonfly. bee. wasp. fly. beetle. grasshopper.'
+keep_labels: ['butterfly', 'moth']
+raw_threshold: 0.1
+threshold: 0.3
+nms: 0.5

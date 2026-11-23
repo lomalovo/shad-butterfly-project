@@ -1,0 +1,6 @@
+data/images/
+.venv/
+scratch/
+__pycache__/
+.pytest_cache/
+data/exam/images/

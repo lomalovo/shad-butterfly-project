@@ -1,0 +1,38 @@
+{
+  "config": {
+    "model": "owlv2",
+    "model_id": "google/owlv2-base-patch16-ensemble",
+    "revision": "cfd3195ba4ea9592eec887ded089f4c08eff231d",
+    "device": "mps",
+    "dtype": "float32",
+    "queries": [
+      "a photo of a butterfly",
+      "a photo of a moth",
+      "a photo of a caterpillar",
+      "a photo of a pupa",
+      "a photo of a dragonfly",
+      "a photo of a bee",
+      "a photo of a wasp",
+      "a photo of a fly",
+      "a photo of a beetle",
+      "a photo of a grasshopper"
+    ],
+    "keep_labels": [
+      "a photo of a butterfly",
+      "a photo of a moth"
+    ],
+    "raw_threshold": 0.02,
+    "threshold": 0.2,
+    "nms": 0.3
+  },
+  "torch": "2.15.0",
+  "transformers": "5.23.0",
+  "python": "3.12.15",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "cpu": "Apple M3 Pro",
+  "device": "mps",
+  "dtype": "float32",
+  "images": 400,
+  "errors": 0,
+  "total_time_s": 155.7
+}

@@ -1,0 +1,5 @@
+{"run": "qwen3vl", "photo_id": 763038157, "attempt": 1, "kind": "warning", "dropped": [], "truncated": true}
+{"run": "qwen3vl_neg", "photo_id": 641669471, "attempt": 1, "kind": "warning", "dropped": [], "truncated": true}
+{"run": "qwen3vl_neg", "photo_id": 761780128, "attempt": 1, "kind": "warning", "dropped": [], "truncated": true}
+{"run": "qwen3vl_neg", "photo_id": 763038157, "attempt": 1, "kind": "warning", "dropped": [], "truncated": true}
+{"run": "qwen3vl_neg", "photo_id": 763112117, "attempt": 1, "kind": "warning", "dropped": [], "truncated": true}

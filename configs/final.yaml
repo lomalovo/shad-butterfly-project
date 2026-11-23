@@ -1,0 +1,18 @@
+model: qwen3_vl
+model_id: Qwen/Qwen3-VL-2B-Instruct
+revision: 89644892e4d85e24eaac8bacfd4f463576704203
+device: mps
+dtype: bfloat16
+min_pixels: 65536
+max_pixels: 1048576
+max_new_tokens: 1024
+prompt: >-
+  Find every butterfly, moth, caterpillar, pupa and other insect in this image. Draw a separate box for each
+  individual, even if they overlap. Each box must tightly cover only the visible parts (wings, body, antennae,
+  legs); do not extend boxes to hidden or cut-off parts. Do not box shadows. Give each box exactly one label
+  from this list: "butterfly" (adult butterfly), "moth" (adult moth), "caterpillar", "pupa", "other insect".
+  Output JSON only: a list of {"bbox_2d": [x1, y1, x2, y2], "label": "..."} with coordinates on a 0-1000
+  relative scale. If there is nothing from this list, output [].
+keep_labels: ['butterfly', 'moth']
+threshold: 0.0
+nms: 0.3
